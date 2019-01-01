@@ -31,7 +31,7 @@ protected:
 
     ScopeGuard() {}
     ScopeGuard(const ScopeGuard&) {}
-    ScopeGuard& operator=(const ScopeGuard&) {}
+    ScopeGuard& operator=(const ScopeGuard&) { return *this; }
 
 public:
 
@@ -95,7 +95,7 @@ public:
         std::cout << std::endl;
     }
 
-    ScopeGuard1(ScopeGuard1&& other) : m_callback(std::forward<Callback>(other.m_callback)), m_active(other.m_active)
+    ScopeGuard1(ScopeGuard1&& other) : m_callback(std::forward<Callback>(other.m_callback)), m_active(std::move(other.m_active))
     {
         std::cout << "ScopeGuard1(ScopeGuard1&& other) [move ctor]";
         std::cout << " this=" << this;
@@ -143,7 +143,7 @@ public:
         if (this != &other)
         {
             m_callback = std::forward<Callback>(other.m_callback);
-            m_active = other.m_active;
+            m_active = std::move(other.m_active);
 
             other.m_active = false;
         }

@@ -21,13 +21,7 @@
     <ClInclude Include="ScopeGuard.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ScopeGuardTest.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Application.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ScopeGuardTest2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="TestBase.h">
@@ -36,21 +30,36 @@
     <ClInclude Include="StdApply.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ScopeGuardTest1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScopeGuardTest2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScopeExit.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScopeExitTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ScopeGuardTest.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Application.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ScopeGuardTest2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="TestBase.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScopeGuardTest1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScopeGuardTest2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScopeExitTest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

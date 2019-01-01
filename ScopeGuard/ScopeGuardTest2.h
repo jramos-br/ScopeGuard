@@ -5,6 +5,6 @@
 #pragma once
 #endif
 
-void ScopeGuardTest2();
+void ScopeGuardTest2(int funcCode);
 
 #endif

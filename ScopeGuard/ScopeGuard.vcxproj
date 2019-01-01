@@ -124,18 +124,21 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Application.h" />
+    <ClInclude Include="ScopeExit.hpp" />
+    <ClInclude Include="ScopeExitTest.h" />
     <ClInclude Include="StdApply.h" />
     <ClInclude Include="TestBase.h" />
     <ClInclude Include="ScopeGuard.h" />
-    <ClInclude Include="ScopeGuardTest.h" />
     <ClInclude Include="ScopeGuardTest2.h" />
+    <ClInclude Include="ScopeGuardTest1.h" />
     <ClInclude Include="scope_guard.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Application.cpp" />
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="ScopeGuardTest.cpp" />
     <ClCompile Include="ScopeGuardTest2.cpp" />
+    <ClCompile Include="ScopeGuardTest1.cpp" />
+    <ClCompile Include="ScopeExitTest.cpp" />
     <ClCompile Include="TestBase.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
