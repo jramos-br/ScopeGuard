@@ -3,7 +3,7 @@ Yet another ScopeGuard class for C++
 
 ## How to use
 
-1. Include "ScopeExit.hpp"
+1. Include [ScopeExit.hpp](ScopeGuard/ScopeExit.hpp).
 2. Use SCOPE_EXIT or SCOPE_EXIT_DECL macro and pass a callback function or
    a lambda expression to be called at scope exit.
 3. To avoid the callback execution use the Dismiss function. To access the
